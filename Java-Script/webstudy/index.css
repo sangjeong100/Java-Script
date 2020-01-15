@@ -1,0 +1,45 @@
+
+body{
+    background-color: gray;
+}
+.btn {
+    cursor: pointer;
+}
+
+.clicked {
+    color: #7f8c8d;
+}
+
+body {
+    color:#34495e;
+}
+
+.form,
+.grettings
+{
+    display: none;
+}
+
+
+.showing{
+    display: block;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 0.9;
+    }
+}
+
+.bgImage{
+    position : absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index:-1;  //따로 설정안하면 class들이나 id 들의 z-index값이 0인듯 하다.
+    animation: fadeIn 2s linear;
+}
