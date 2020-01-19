@@ -1,0 +1,55 @@
+body {
+    background-color: gray;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.js-clock {
+    color: honeydew;
+}
+
+#year {
+    color: green;
+}
+
+body {
+    color: whitesmoke;
+}
+
+.form,
+.greeting {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+.toDoList {
+    color: yellowgreen;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacitiy: 1;
+    }
+}
+
+.js-weather {
+    color: skyblue;
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
